@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Kaushan+Script&family=Kavoon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Numans&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Google Advanced Search</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">Back to Search</a>
+    </header>
+    <h3 style="color: #d93025;" class="open-sans-200">Advanced Search</h3>
+    <h3>Find pages with...</h3>
+    <form action="https://www.google.com/search">
+        <div class="container">
+                <div class="inputDiv">
+                    <label for="asq">all these words:</label>
+                    <input class="advInput" id="asq" type="text" name="as_q">
+                </div>
+
+                <div class="inputDiv">
+                    <label for="asepq">this exact word or phrase:</label>
+                    <input class="advInput" id="asepq" type="text" name="as_epq">
+                </div>
+
+                <div class="inputDiv">
+                    <label for="asoq">any of these words:</label>
+                    <input class="advInput" id="asoq" type="text" name="as_oq">
+                </div>
+
+                <div class="inputDiv">
+                    <label for="aseq">none of these words:</label>
+                    <input class="advInput" id="aseq" type="text" name="as_eq">
+                </div>
+
+                <input class="submitBtn" type="submit" value="Advanced Search">
+        </div>
+    </form>
+</body>
+</html>
+
+<!-- https://www.google.com/search?as_q=apple+sausage&as_epq=%22lol%22&as_oq=mini+OR+large&as_eq=-rat&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs= -->
+<!-- https://www.google.com/search?as_q=apple+sausage+food&as_epq=big+stem&as_oq=mini+large&as_eq=rat&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs= -->
